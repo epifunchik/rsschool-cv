@@ -9,20 +9,20 @@
   * __GitHub__: [epifunchik](https://github.com/epifunchik)
 
 
- ## About myself:
+## About myself:
 
 
- ## Work expirience:
+## Work expirience:
 
    not yet
 
 
- ## Education and courses:
+## Education and courses:
 
    Now study in RS School
 
 
- ## Language:
+## Language:
 
 
    English level A2
