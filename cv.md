@@ -8,21 +8,16 @@
   * __Email__: volha.ausianik@yandex.ru
   * __GitHub__: [epifunchik](https://github.com/epifunchik)
 
-
 ## About myself:
-
 
 ## Work expirience:
 
    not yet
 
-
 ## Education and courses:
 
    Now study in RS School
 
-
 ## Language:
-
 
    English level A2
