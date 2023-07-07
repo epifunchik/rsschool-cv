@@ -9,12 +9,80 @@
     <link rel="icon" href="assets/ico/3846862.ico">
 </head>
 <body>
-<main>
-        <header>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a class="link" href="#about">About me</a></li>
+                    <li><a class="link" href="#contacts">Contacts</a></li>
+                    <li><a class="link" href="#skills">Skills</a></li>
+                    <li><a class="link" href="#code">Code</a></li>
+                    <li><a class="link" href="#project">Project</a></li>
+                    <li><a class="link" href="#language">Languages</a></li>
+                </ul>
+            </nav>
         </header>
-        <footer>
+        <main class="main">
+            <section class="about">
+                <img class="photo" src="assets/img/IMG_2763.jpg" alt="my photo">
+                <h1>Volha Ausianik</h1>
+            </section>
+            <section class="content" id="about">
+                <h2 class="subtitle">About me</h2>
+                <p class="text">I live in Minsk. Last 7 years care about family. Now i want stady JS frontend and in future find a job.</p>
+            </section>
+            <section class="content" id="contacts">
+                <h2 class="subtitle">Contacts</h2>
+                <p>e-mail:&nbsp<a href="mailto:volha.ausianik@yandex.ru">volha.ausianik@yandex.ru</a></p>
+                <p>github:&nbsp<a href="https://github.com/epifunchik">https://github.com/epifunchik</a></p>
+            </section>
+            <section class="content" id="skills">
+                <h2 class="subtitle">Skills</h2>
+                    <ul class="list-skils">
+                        <li class="list-item">MS Word</li>
+                        <li class="list-item">MS Exel</li>
+                        <li class="list-item">HTML</li>
+                        <li class="list-item">CSS</li>
+                        <li class="list-item">JS basic</li>
+                    </ul>
+            </section>
+            <section class="content" id="code">
+                <h2 class="subtitle">Code</h2>
+                <pre class="code-text">
+                    <code>
+                        function getRandomElement(arr) {
+                            let randIndex = Math.floor(Math.random() * arr.length);
+                            return arr[randIndex];
+                        }
+                        button.addEventListener('click', function () {
+                            let randomElement = getRandomElement(phrases);
+                            phrase.textContent = randomElement;
+                            if (randomElement.length > 40) {
+                                advice.style.fontSize = '33px';
+                        }
+                        else {advice.style.fontSize = '42px'}
+                        });
+                    </code>
+                </pre>
+            </section>
+            <section class="content" id="project">
+                <h2 class="subtitle">Projects</h2>
+                    <p class="text-skils">CV 2 for RSSchool</p>
+                    <a class="link-project" href="https://github.com/epifunchik/rsschool-cv/blob/rsschool-cv-html/cv.md">https://github.com/epifunchik/rsschool-cv/blob/rsschool-cv-html/cv.md</a>
+            </section>
+            <section class="content" id="language">
+                <h2 class="subtitle">Languages</h2>
+                <ul class="list-skils">
+                    <li class="list-item">Russian: native</li>
+                    <li class="list-item">English: B1</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="link-footer" href="https://rs.school/js/"><img class="image-footer" src="assets/img/rs_school_js.svg" alt="RS_school"></a>
+                    <p class="text-footer">2023</p>
+                    <a class="link" href="https://github.com/epifunchik">https://github.com/epifunchik</a>
         </footer>
-
-</main>
+    </div>
 </body>
 </html>

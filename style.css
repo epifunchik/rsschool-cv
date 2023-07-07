@@ -6,155 +6,119 @@
 * {
     box-sizing: border-box;
   }
-
-body{
-    background-color: gainsboro;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+html{
+    scroll-behavior: smooth;
 }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+body{
+    margin: auto;
+    background-color: gainsboro;
+}
 
-.mainblock{
+p,
+a,
+li,
+code{
+   font-family:Verdana, Geneva, Tahoma, sans-serif 
+}
+
+p,
+code{
+    font-size: 20px;
+    color: #5b5363;
+}
+
+a{
+    text-decoration: none;
+    color: #5b5363;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.wrapper{
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 1500px;
-    text-align: center;
-    width: 1100px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: white;
 }
 
-.header-line{
-    display: block;
-    margin-top: 0px;
-    height: 70px;
-    background-color: white;
+.nav{
+    display: flex;
+    justify-content: end;
+    border-bottom-style: solid;
+    border-color: antiquewhite;
+    border-width: 5px;
 }
 
-.header{
-    height: 350px;
-    background-color: rgb(221, 202, 215);
-    margin-top:70px;
-    text-align: center;
-}
-
-.aside{
-    display: block;
-    background-color: rgb(151, 168, 154);
-    width: 300px;
-    height: 1500px;
-    position: absolute;
-    margin-left: 50px;
-}
-
-.image{
-    width: 80%;
-    margin-top: 80px;
-    height: 260px;
-}
-
-.content{
-    display: inline-block;
-}
-
-.footer{
-    margin-left: 50 px;
-}
-
-.list-aside{
-    margin-left: 0px;
-    padding-left: 0px;
-    line-height: 25px;
-    list-style-type: none;
-    text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.content-skils{
- 
-margin-left: 600px;
-    display: inline;
-    text-align: left;
+.nav-menu{
+    display: flex;
+    gap: 50px;
     list-style-type: none;
 }
 
-.link-project{
-    margin-left: 70px;
+.link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+}
+
+.link:hover{
+    color: #59598e;
+}
+
+.main{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.about{
+    display: flex;
+    width: 100%;
+    gap: 20%;
+    align-items: center;
+}
+.photo{
+    width: 30%;
 }
 
 h1{
-    text-indent: 250px;
-    font-size: 70px;
-    font-family: Bree_Serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 44px;
+    color: #5b5363;
+}
+
+.content{
+    width: 50%;
+    padding: 20px;
 }
 
 h2{
-    padding-top: 15px;
-    font-size: 30px;
-    font-family: Bree_Serif;
-}
-
-h3{
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-left: 400px;
-    font-size: 30px;
-    font-family: Bree_Serif;
-}
-
-.text{
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.list-skils{
-    margin-left: 300px;
-    line-height: 25px;
-    list-style-type: none;
-    text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #272529;
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+    margin: 10px;
 }
 
 .code-text{
-    margin-left: 180px;
-   dir: left; 
-}
-
-.text-skils{
-    margin-left: 335px;
-    text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: -160px;
+    margin-top: -20px;
 }
 
 .footer{
-    margin-top: 30px;
-    margin-left: 330px;
-    display: block;
-    height: 40px;
-    width: 600px;
-    object-fit: contain;
-    text-align: left;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    justify-content: space-around;
+    border-top-style: solid;
+    border-color: antiquewhite;
+    border-width: 5px;
 }
-
 .image-footer{
-    width: 60px;
-}
-
-.link-footer{
-    width: 60px;
-}
-
-.text-footer{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 60px;
-}
-
-.cols{
-    width: 200px;
-    text-align: center;
+    width: 70px;
 }
